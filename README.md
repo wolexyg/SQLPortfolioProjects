@@ -1,6 +1,6 @@
 # SQLPortfolioProject
 
-# Project Title
+# Project 1 Title
 1.Population_census.sql
 
 Here is an SQL Data Analysis of the Indian Population census 2011 using Microsoft SQL Server.This data is gotten from www.census2011.co.in/district.php
@@ -67,7 +67,7 @@ Install my-project with npm
   npm install my-project
   cd my-project
 ```
-# Project Title
+# Project 2 Title
 2.RFM Analysis on Sales Data Sample
 
 Analysis on sales revenue and customer segmentation analysis using RFM in Microsoft SQL Server with Sales sample data originally downloaded from Kaggle.com
