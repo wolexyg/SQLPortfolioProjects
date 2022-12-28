@@ -1,7 +1,7 @@
 # SQLPortfolioProject
 
 # Project Title
-Population_census.sql
+1.Population_census.sql
 
 Here is an SQL Data Analysis of the Indian Population census 2011 using Microsoft SQL Server.This data is gotten from www.census2011.co.in/district.php
 Different Data Analysis were performed ranging from;
@@ -56,6 +56,34 @@ Tableau
 PowerBI
 Python Programming
 Numpy,pandas,scipy etc...
+
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+# Project Title
+2.RFM Analysis on Sales Data Sample
+
+Analysis on sales revenue and customer segmentation analysis using RFM in Microsoft SQL Server with Sales sample data originally downloaded from Kaggle.com
+RFM means Recency,Frequency and Monetary.Highlights of the analysis includes amongst others Data Cleaning,RFM Analysis,Using CASE Statements,Window functions,Group by,order by and Having clause functions.The major Data analysis explored on the dataset include;
+-Grouping sales by productline,
+--SALES ACROSS THE YEAR
+-REASONS WHY THERE WERE LOW SALES IN 2005,
+-FINDING THE BEST MONTH FOR SALES IN A PARTICULAR YEAR
+-The product generated the highest sales in November,
+--The  best customer using RFM Analysis,
+-The products that are most often sold together
+--Retrieving the productcode for the orders
+
+
+This dataset was created to explore the SQL Data Analysis of Sales Sample Data downloaded from www.kaggle.com using RFM Analysis
+
 
 
 
