@@ -59,6 +59,13 @@ Numpy,pandas,scipy etc...
 
 
 
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
 ```
 # Project 2 Title
 2.RFM Analysis on Sales Data Sample
@@ -75,7 +82,17 @@ RFM means Recency,Frequency and Monetary.Highlights of the analysis includes amo
 --Retrieving the productcode for the orders
 
 
+
 This dataset was created to explore the SQL Data Analysis of Sales Sample Data downloaded from www.kaggle.com using RFM Analysis
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
 
 # Project 3 Title
 3.Cleaning and Exploring SBA Data
@@ -83,18 +100,6 @@ This dataset was created to explore the SQL Data Analysis of Sales Sample Data d
 Here is an SQL Data Analysis of the USA Small Business Administration(SBA).As part of their Covid-19 relief assistance to small businesses,they offered a paycheck
 protection program which is a loan they gave out to small businesses to help them pay their workforce.They made some datasets available related to that program which can be downloaded from www.data.sba.gov/dataset/   I will be cleaning and exploring the data to derive meaningful insight in Microsoft
 SQL Server.
-
-# Project 4 Title
-4.Advanced SQL Demo
-
-The SQL project was manually created to explore the different Advanced functions in SQL like
--Subquries
--Creating Stored Procedures
--Creating Triggers
--Creating views
--Using Window functions
--Using Rank Functions
-
 
 
 
