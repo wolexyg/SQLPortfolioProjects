@@ -94,6 +94,8 @@ SQL Server.
 
 
 
+
+
 ## Installation
 
 Install my-project with npm
@@ -106,12 +108,8 @@ Install my-project with npm
 # Project 4 Title
 4.Advanced SQL Demo
 
-Tha SQL Project was manually created to explore the different Advanced SQL functions like
--Subquery
--Creating a Stored Procedure
--Creating Views
--Window functions
--Rank functions
+This SQL project was manually created to explore some of the advanced functions used in SQL.Such functions like Subquery,Creating stored procedures,Creating views
+Creating triggers,Window functions and Rank functions were used in this project.
 
 ## Installation
 
@@ -121,8 +119,4 @@ Install my-project with npm
   npm install my-project
   cd my-project
 ```
-
-
-
-
     
