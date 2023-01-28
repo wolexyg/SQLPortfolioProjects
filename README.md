@@ -88,7 +88,7 @@ This dataset was created to explore the SQL Data Analysis of Sales Sample Data d
 3.Cleaning and Exploring SBA Data
 
 Here is an SQL Data Analysis of the USA Small Business Administration(SBA).As part of their Covid-19 relief assistance to small businesses,they offered a paycheck
-protection program which is a loan they gave out to small businesses to help them pay their workforce.They made some datasets available related to that program which can be downloaded from data.sba.gov/dataset/.   I will be cleaning and exploring the data to derive meaningful insight in Microsoft
+protection program which is a loan they gave out to small businesses to help them pay their workforce.They made some datasets available related to that program which can be downloaded from www.data.sba.gov/dataset/   I will be cleaning and exploring the data to derive meaningful insight in Microsoft
 SQL Server.
 
 
