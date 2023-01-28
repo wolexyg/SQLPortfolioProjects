@@ -82,17 +82,7 @@ RFM means Recency,Frequency and Monetary.Highlights of the analysis includes amo
 --Retrieving the productcode for the orders
 
 
-
 This dataset was created to explore the SQL Data Analysis of Sales Sample Data downloaded from www.kaggle.com using RFM Analysis
-
-## Installation
-
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
 
 # Project 3 Title
 3.Cleaning and Exploring SBA Data
@@ -104,7 +94,24 @@ SQL Server.
 
 
 
+## Installation
 
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+
+# Project 4 Title
+4.Advanced SQL Demo
+
+Tha SQL Project was manually created to explore the different Advanced SQL functions like
+-Subquery
+-Creating a Stored Procedure
+-Creating Views
+-Window functions
+-Rank functions
 
 ## Installation
 
@@ -114,4 +121,8 @@ Install my-project with npm
   npm install my-project
   cd my-project
 ```
+
+
+
+
     
