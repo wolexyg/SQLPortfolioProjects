@@ -3,22 +3,22 @@
 # Project 1 Title
 1.Population_census.sql
 
-Here is an SQL Data Analysis of the Indian Population census 2011 using Microsoft SQL Server.This data is gotten from www.census2011.co.in/district.php
-Different Data Analysis were performed ranging from;
--Average growth for entire population
--total Population of India
--Average sex ratio by state
--State with the highest growth rate
--Average literacy ratio by state
--Current total population to previous total population
--Top 3 states which have displayed the highest average growth rate.
+Here is an SQL Data Analysis of the Indian Population census 2011 using Microsoft SQL Server.This data is gotten from www.census2011.co.in/district.php              
+Different Data Analysis were performed ranging from;         
+1.-Average growth for entire population            
+2-total Population of India             
+3-Average sex ratio by state              
+4-State with the highest growth rate              
+5-Average literacy ratio by state            
+6-Current total population to previous total population           
+7-Top 3 states which have displayed the highest average growth rate.                 
 
 
 This dataset was created to explore the Data Analysis of the 2011 Population Census of India using different SQL Functions 
 
 
 ## 🚀 About Me
-5 years of Industry experience as a data analyst and 2 years as a Data Scientist
+7 years of Industry experience as a data analyst and 4 years as a Data Scientist
 using Machine Learning algorithms. I have consistently interfaced with SQL,
 PowerBI and Tableau. I have work experience and extensive knowledge in
 Python with libraries such as Sklearn, TensorFlow, Pandas, NumPy,
