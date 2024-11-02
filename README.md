@@ -1,7 +1,6 @@
 # SQLPortfolioProject
 
-# Project 1 Title
-1.Population_census.sql
+# Project 1-Population_census.sql
 
 Here is an SQL Data Analysis of the Indian Population census 2011 using Microsoft SQL Server.This data is gotten from www.census2011.co.in/district.php              
 Different Data Analysis were performed ranging from;         
