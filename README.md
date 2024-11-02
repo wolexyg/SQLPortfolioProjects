@@ -66,26 +66,24 @@ Install my-project with npm
   npm install my-project
   cd my-project
 ```
-# Project 2 Title
-2.RFM Analysis on Sales Data Sample
+# Project 2-RFM Analysis on Sales Data Sample
 
 Analysis on sales revenue and customer segmentation analysis using RFM in Microsoft SQL Server with Sales sample data originally downloaded from Kaggle.com
-RFM means Recency,Frequency and Monetary.Highlights of the analysis includes amongst others Data Cleaning,RFM Analysis,Using CASE Statements,Window functions,Group by,order by and Having clause functions.The major Data analysis explored on the dataset include;
--Grouping sales by productline,
---SALES ACROSS THE YEAR
--REASONS WHY THERE WERE LOW SALES IN 2005,
--FINDING THE BEST MONTH FOR SALES IN A PARTICULAR YEAR
--The product generated the highest sales in November,
---The  best customer using RFM Analysis,
--The products that are most often sold together
---Retrieving the productcode for the orders
+RFM means Recency,Frequency and Monetary.Highlights of the analysis includes amongst others Data Cleaning,RFM Analysis,Using CASE Statements,Window functions,Group by,order by and Having clause functions.The major Data analysis explored on the dataset include;             
+1.-Grouping sales by productline             
+2.--SALES ACROSS THE YEAR                    
+3. REASONS WHY THERE WERE LOW SALES IN 2005            
+4.-FINDING THE BEST MONTH FOR SALES IN A PARTICULAR YEAR             
+5 -The product generated the highest sales in November        
+6--The  best customer using RFM Analysis            
+7.The products that are most often sold together           
+8.Retrieving the productcode for the orders
 
 
 This dataset was created to explore the SQL Data Analysis of Sales Sample Data downloaded from www.kaggle.com using RFM Analysis
 
-# Project 3 Title
-3.Cleaning and Exploring SBA Data
-
+# Project 3-Cleaning and Exploring SBA Data
+# Overview
 Here is an SQL Data Analysis of the USA Small Business Administration(SBA).As part of their Covid-19 relief assistance to small businesses,they offered a paycheck
 protection program which is a loan they gave out to small businesses to help them pay their workforce.They made some datasets available related to that program which can be downloaded from www.data.sba.gov/dataset/   I will be cleaning and exploring the data to derive meaningful insight in Microsoft
 SQL Server.
@@ -104,8 +102,7 @@ Install my-project with npm
   cd my-project
 ```
 
-# Project 4 Title
-4.Advanced SQL Demo
+# Project 4 Title-Advanced SQL Demo
 
 This SQL project was manually created to explore some of the advanced functions used in SQL.Such functions like Subquery,Creating stored procedures,Creating views
 Creating triggers,Window functions and Rank functions were used in this project.
