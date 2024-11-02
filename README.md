@@ -112,7 +112,7 @@ Creating triggers,Window functions and Rank functions were used in this project.
 Install my-project with npm
 
 
-Project 5-Walmart Data Analysis: End-to-End SQL + Python Project 
+# Project 5-Walmart Data Analysis: End-to-End SQL + Python Project 
 Project Overview
 Project Pipeline
 
