@@ -160,8 +160,8 @@ During this initial phase, the data is examined to detect any NULL or missing va
 
 ## Build a database
 Create a table and insert the data.
-Select columns with null values in them. Null values are not present in our database because, in creating the tables, NOT NULL was specified for each field, effectively filtering out any null values.
-2. Feature Engineering
+Select columns with null values in them. Null values are not present in our database because, in creating the tables, NOT NULL was specified for each field, effectively filtering out any null values.             
+## 2. Feature Engineering               
 
 ## Derived new columns from existing data for time-based analysis:
 
@@ -169,23 +169,23 @@ time_of_day: Categorized transactions into Morning, Afternoon, and Evening to an
 
 day_name: Extracted weekday names to identify branch activity trends across the week.
 
-month_name: Extracted month names to evaluate monthly sales and profitability performance.
+month_name: Extracted month names to evaluate monthly sales and profitability performance.            
 
-3. Exploratory Data Analysis (EDA)
+## 3. Exploratory Data Analysis (EDA)
 
 ## Business Questions to Answer
-Generic Questions
--- How many distinct cities are present in the dataset?               
--- In which city is each branch situated?               
-## Product Analysis        
--- How many distinct product lines are there in the dataset?         
--- What is the most common payment method?         
--- What is the most selling product line?        
--- What is the total revenue by month?          
--- Which month recorded the highest Cost of Goods Sold (COGS)?          
--- Which product line generated the highest revenue?         
--- Which city has the highest revenue?       
--- Which product line incurred the highest VAT?           
+Generic Questions        
+-- How many distinct cities are present in the dataset?                    
+-- In which city is each branch situated?                     
+## Product Analysis              
+-- How many distinct product lines are there in the dataset?                
+-- What is the most common payment method?                
+-- What is the most selling product line?               
+-- What is the total revenue by month?                    
+-- Which month recorded the highest Cost of Goods Sold (COGS)?              
+-- Which product line generated the highest revenue?             
+-- Which city has the highest revenue?             
+-- Which product line incurred the highest VAT?                   
 ## Retrieve each product line and add a column product_category, indicating 'Good' or 'Bad,' based on whether its sales are above the average.        
 -- Which branch sold more products than average product sold?
 -- What is the most common product line by gender?
