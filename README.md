@@ -102,12 +102,61 @@ Install my-project with npm
   cd my-project
 ```
 
-# Project 4 Title-Advanced SQL Demo
+# Project 4 Title-Online Book Store Data Analysis Using MySQL
 
-This SQL project was manually created to explore some of the advanced functions used in SQL.Such functions like Subquery,Creating stored procedures,Creating views
-Creating triggers,Window functions and Rank functions were used in this project.
+This project involved a deep dive into bookstore sales data, leveraging MySQL's powerful analytical features and strategic SQL queries (including joins) to uncover valuable insights for making informed business decisions.              
 
-## Installation
+▶️ KEY FEATURES:         
+
+1. Time-Based Order Analysis       
+2. Customer Order Management      
+3. Revenue Stream Analysis        
+4. Top-Selling Books by Genre, Price, and Quantity        
+5. Stock Level Assessment          
+
+▶️ PROJECT GOALS:        
+
+1. Understand Customer Preferences       
+2. Optimize Sales and Marketing Strategies      
+3. Improve Inventory Management       
+4. Drive Revenue Growth        
+
+▶️ DATA DESCRIPTION:              
+This analysis utilized 3 datasets in CSV format, detailing customer details, order details, book information.      
+
+▶️ KEY PERFORMANCE INDICATORS (KPI):          
+
+1. Total Revenue        
+2. Number of Orders        
+3. Average Order Value      
+4. Most Ordered Books (Quantity)     
+5. Top Revenue Generating Books      
+6. Order Distribution (Monthly/Seasonal)       
+7. Popular Book Genres       
+8. Customer Loyalty Rate (Repeat Orders)      
+9. Remaining Stock Levels       
+10 Top Spending Customers         
+
+▶️ DATA INSIGHTS:         
+
+· Strong Revenue: Achieved a significant total revenue from all book sales.        
+· Popular Fiction: Fiction books are the top-selling genre, indicating high customer demand.      
+· Seasonal Peak: November 2023 experienced a notable spike in sales, highlighting seasonal trends.        
+· Canadian Engagement: A substantial portion of the customer base resides in Canada, presenting regional marketing opportunities.    
+· Loyal Base: Several customers placed multiple orders, demonstrating strong loyalty.        
+· High-Value Potential: High-value orders and bulk purchases suggest potential for loyalty programs and discounts.      
+· Top Spenders: Identified key customers with the highest total spending.       
+
+▶️ RECOMMENDATIONS:      
+
+· Prioritize Fiction: Ensure ample stock and targeted promotions for fiction titles.       
+· Capitalize on November: Plan specific marketing campaigns to leverage the November sales surge.      
+· Engage Canadian Customers: Develop tailored marketing strategies for the Canadian market.      
+· Implement Loyalty Rewards: Introduce a loyalty program to incentivize repeat purchases.       
+· Optimize Inventory (Fiction): Maintain sufficient stock levels of popular fiction books.       
+· Recognize Top Customers: Consider personalized offers or engagement strategies for high-spending customers.       
+
+
 
 Install my-project with npm
 
