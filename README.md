@@ -113,66 +113,103 @@ Install my-project with npm
 
 
 # Project 5-Walmart Data Analysis: End-to-End SQL + Python Project 
-Project Overview
-Project Pipeline
+# Project Scope:
+Perform in-depth sales analysis to uncover business insights that highlight performance trends and identify growth opportunities and recommend data-driven strategies for improving product sales. The main goal of this project is to gain insights sales data, exploring the various factors that influence sales across different branches.
 
-This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
+# About Data
+This project's data was obtained from the Kaggle Walmart Sales Forecasting Competition and it encompasses sales transactions from three Walmart branches situated in Mandalay, Yangon, and Naypyitaw, respectively.
 
-Project Steps
-1. Set Up the Environment
-Tools Used: Visual Studio Code (VS Code), Python, SQL (MySQL and PostgreSQL)
-Goal: Create a structured workspace within VS Code and organize project folders for smooth development and data handling.
-2. Set Up Kaggle API
-API Setup: Obtain your Kaggle API token from Kaggle by navigating to your profile settings and downloading the JSON file.
-Configure Kaggle:
-Place the downloaded kaggle.json file in your local .kaggle folder.
-Use the command kaggle datasets download -d <dataset-path> to pull datasets directly into your project.
-3. Download Walmart Sales Data
-Data Source: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
-Dataset Link: Walmart Sales Dataset
-Storage: Save the data in the data/ folder for easy reference and access.
-4. Install Required Libraries and Load Data
-Libraries: Install necessary Python libraries using:
-pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
-Loading Data: Read the data into a Pandas DataFrame for initial analysis and transformations.
-5. Explore the Data
-Goal: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
-Analysis: Use functions like .info(), .describe(), and .head() to get a quick overview of the data structure and statistics.
-6. Data Cleaning
-Remove Duplicates: Identify and remove duplicate entries to avoid skewed results.
-Handle Missing Values: Drop rows or columns with missing values if they are insignificant; fill values where essential.
-Fix Data Types: Ensure all columns have consistent data types (e.g., dates as datetime, prices as float).
-Currency Formatting: Use .replace() to handle and format currency values for analysis.
-Validation: Check for any remaining inconsistencies and verify the cleaned data.
-7. Feature Engineering
-Create New Columns: Calculate the Total Amount for each transaction by multiplying unit_price by quantity and adding this as a new column.
-Enhance Dataset: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
-8. Load Data into MySQL and PostgreSQL
-Set Up Connections: Connect to MySQL and PostgreSQL using sqlalchemy and load the cleaned data into each database.
-Table Creation: Set up tables in both MySQL and PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
-Verification: Run initial SQL queries to confirm that the data has been loaded accurately.
-9. SQL Analysis: Complex Queries and Business Problem Solving
-Business Problem-Solving: Write and execute complex SQL queries to answer critical business questions, such as:
-Revenue trends across branches and categories.
-Identifying best-selling product categories.
-Sales performance by time, city, and payment method.
-Analyzing peak sales periods and customer buying patterns.
-Profit margin analysis by branch and category.
-Documentation: Keep clear notes of each query's objective, approach, and results.
-10. Project Publishing and Documentation
-Documentation: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
-Project Publishing: Publish the completed project on GitHub or any other version control platform, including:
-The README.md file (this document).
-Jupyter Notebooks (if applicable).
-SQL query scripts.
-Data files (if possible) or steps to access them.
-Requirements
-Python 3.8+
-SQL Databases: MySQL, PostgreSQL
-Python Libraries:
-pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
-Kaggle API Key (for data downloading)
+The data contains 17 columns and 1000 rows:
 
+Column	Description	Data Type
+invoice_id	Invoice of the sales made	VARCHAR(30)
+branch	Branch at which sales were made	VARCHAR(5)
+city	The location of the branch	VARCHAR(30)
+customer_type	The type of the customer	VARCHAR(30)
+gender	Gender of the customer making purchase	VARCHAR(10)
+product_line	Product line of the product sold	VARCHAR(100)
+unit_price	The price of each product	DECIMAL(10, 2)
+quantity	The amount of the product sold	INT
+VAT	The amount of tax on the purchase	FLOAT(6, 4)
+total	The total cost of the purchase	DECIMAL(12, 4)
+date	The date on which the purchase was made	DATETIME
+time	The time at which the purchase was made	TIME
+payment	The total amount paid	DECIMAL(10, 2)
+cogs	Cost Of Goods sold	DECIMAL(10, 2)
+gross_margin_pct	Gross margin percentage	FLOAT(11, 9)
+gross_income	Gross Income	DECIMAL(12, 4)
+rating	Rating	FLOAT(2, 1)
+Analysis Flow:
+1. Product Analysis
+Analyzed product line performance to identify top contributors to revenue and profit, while highlighting areas for strategic improvement.
+
+2. Sales Analysis
+Evaluated sales trends across time, branches, and payment channels to assess the effectiveness of sales strategies and uncover opportunities for revenue growth.
+
+3. Customer Analysis
+Segmented customers to understand buying behavior, analyze revenue contribution by segment, and uncover actionable insights to optimize customer engagement and profitability.
+
+Approach Used
+1. Data Wrangling
+
+During this initial phase, the data is examined to detect any NULL or missing values, and strategies for data replacement are implemented to address and substitute these values effectively.
+
+Build a database
+Create a table and insert the data.
+Select columns with null values in them. Null values are not present in our database because, in creating the tables, NOT NULL was specified for each field, effectively filtering out any null values.
+2. Feature Engineering
+
+Derived new columns from existing data for time-based analysis:
+
+time_of_day: Categorized transactions into Morning, Afternoon, and Evening to analyze peak sales periods during the day.
+
+day_name: Extracted weekday names to identify branch activity trends across the week.
+
+month_name: Extracted month names to evaluate monthly sales and profitability performance.
+
+3. Exploratory Data Analysis (EDA)
+
+Business Questions to Answer
+Generic Questions
+How many distinct cities are present in the dataset?
+In which city is each branch situated?
+Product Analysis
+How many distinct product lines are there in the dataset?
+What is the most common payment method?
+What is the most selling product line?
+What is the total revenue by month?
+Which month recorded the highest Cost of Goods Sold (COGS)?
+Which product line generated the highest revenue?
+Which city has the highest revenue?
+Which product line incurred the highest VAT?
+Retrieve each product line and add a column product_category, indicating 'Good' or 'Bad,' based on whether its sales are above the average.
+Which branch sold more products than average product sold?
+What is the most common product line by gender?
+What is the average rating of each product line?
+Sales Analysis
+Number of sales made in each time of the day per weekday
+Identify the customer type that generates the highest revenue.
+Which city has the largest tax percent/ VAT (Value Added Tax)?
+Which customer type pays the most VAT?
+Customer Analysis
+How many unique customer types does the data have?
+How many unique payment methods does the data have?
+Which is the most common customer type?
+Which customer type buys the most?
+What is the gender of most of the customers?
+What is the gender distribution per branch?
+Which time of the day do customers give most ratings?
+Which time of the day do customers give most ratings per branch?
+Which day of the week has the best avg ratings?
+Which day of the week has the best average ratings per branch?
+Advanced Analytics
+Is there a correlation between high ratings and higher gross income?
+Which product line is most sensitive to time_of_day (i.e. shows the most variation in sales across different times)?
+Which branch has the fastest-moving inventory (highest quantity sold relative to number of invoices)?
+Month-over-Month Revenue Growth
+Which product line shows the most variation in sales across different times of the day?
+Which product line has the highest profit margin %
+Walmart-Sales-Analysis-SQL-Project/Project Overview.md at main · anas-ghouri/Walmart-Sales-
 
 ```bash
   npm install my-project
