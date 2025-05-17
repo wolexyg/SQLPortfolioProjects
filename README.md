@@ -2,7 +2,7 @@
 
 # Project 1-Pizza Sales Analysis    
 ## Problem Statement 
-The primary goal of this project is to analyze Walmart’s sales data to gain insights into the factors influencing sales across its various branches.
+This project involved a comprehensive analysis of pizza sales data, utilizing MySQL's analytical capabilities and strategic SQL operations (including joins) to extract meaningful insights for informed business decision-making
 <<mg src="https://i.ibb.co/HL4Y4D2S/Pizza-Sales-Analysis.jpg" alt="Pizza-Sales-Analysis" border="0">
 ## KEY FEATURES:         
 -- Time Based Order Analysis.   
