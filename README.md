@@ -4,12 +4,13 @@
 ## Problem Statement 
 This project involved a comprehensive analysis of pizza sales data, utilizing MySQL's analytical capabilities and strategic SQL operations (including joins) to extract meaningful insights for informed business decision-making.      
 
-<img src="https://i.ibb.co/HL4Y4D2S/Pizza-Sales-Analysis.jpg" alt="Pizza-Sales-Analysis" border="0">
-## KEY FEATURES:         
--- Time Based Order Analysis.   
--- Orders Management.      
--- Revenue Analysis.        
--- Most Popular Pizzas Based On Price, Order, Category.      
+<img src="https://i.ibb.co/HL4Y4D2S/Pizza-Sales-Analysis.jpg" alt="Pizza-Sales-Analysis" border="0">         
+
+## KEY FEATURES:                
+-- Time Based Order Analysis.           
+-- Orders Management.           
+-- Revenue Analysis.                
+-- Most Popular Pizzas Based On Price, Order, Category.              
 
 ## PROJECT GOALS:     
 -- 1. Understand Customer Behavior.     
